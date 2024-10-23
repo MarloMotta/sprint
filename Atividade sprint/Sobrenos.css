@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    background: #e5322a;
+    color: #fff;
+    border-radius: 15px ;
+
+}
+button {
+    padding: 10px;
+    background: #e5322a;
+    color: #fff;
+    border-radius: 15px ;
+
+}
+
+.button{
+    top: 0%;
+    right:0%;
+    position: absolute;
+    margin:15px;
+    margin-right: 16%;
+    text-align: center;
+ 
+   
+}
+.button2{
+    top: 0%;
+    right:0%;
+    position: absolute;
+    margin:15px;
+    margin-right: 9%;
+}
+.button3{
+    top: 0%;
+    right:0%;
+    position: absolute;
+    margin:15px;
+}
+.button4 {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    margin: 15px;
+    margin-right: 0.5%;
+}
+
+body{
+    background-color: #d5d3ca;
+    width: 95%;
+}
+header{
+    background-color:#121211;
+    color: #cfb645;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 75px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+.imgfooter{
+    width: 75px;
+    height: 75px;
+    left: 0;
+
+}
+footer{
+    background-color:#121211;
+    color: #cfb645;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+
+    p{
+        margin-right:10%;
+    }
+      }
+
+
+p{
+    text-align: center;
+}
+.but{
+    padding: 10px;
+}
+.main-content {
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.perfil{
+    border-radius: 100%;
+}
+.div{
+    text-align: center;
+}

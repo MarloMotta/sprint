@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: Roboto;
+}
+
+h2 {
+    color: #121211;
+    top: 360px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background-color: #D5D3CA;
+    height: 100hv;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color:#121211;
+    color: #cfb645;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 75px;
+}
+
+button {
+    padding: 10px;
+    background: #e5322a;
+    color: #fff;
+    border-radius: 15px;
+   
+}
+
+.button {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    margin: 15px;
+    margin-right: 19%;
+    text-align: center;
+}
+
+
+.button3 {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    margin: 15px;
+    margin-right: 10.5%;
+}
+
+.button4 {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    margin: 15px;
+    margin-right: 0.5%;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+.footer {
+        background-color: #121211;
+        text-align: center;
+        color: #cfb645;
+        padding: 15px;
+
+    img {
+        display: flex;
+        position: absolute;
+        top: 548px;
+        height: 65px;
+        right: 700px;
+        text-align: center;
+        border-radius: 15px;
+        left: 0;
+    }
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-sidebar {
+    color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    background-image: url(/imagens/esportesmaneiros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: linear 0.30s;
+    border-radius: 15px;
+    box-shadow: #121211;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main-content {
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background-image: url(/imagens/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: linear 0.30s;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.right-sidebar {
+    color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    background-image: url(/imagens/halloweenboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: linear 0.30s;
+    border-radius: 15px;
+    box-shadow: #121211;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.left-sidebar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.right-sidebar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+    color: #D5D3CA;
+}
